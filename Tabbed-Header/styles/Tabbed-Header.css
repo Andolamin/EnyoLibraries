@@ -1,0 +1,35 @@
+.stretchHeader {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.tabbedHeader {
+    background: #F5F5F5;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.tabbedHeader.header .onyx-tabbutton {
+    outline: 0;
+    color: #292929;
+    font-size: 16px;
+    text-align: center;
+    white-space: nowrap;
+    margin: 0;
+    padding: 6px 18px;
+    overflow: hidden;
+    border-right: 1px solid rgba(15, 15, 15, 0.2) !important;
+    box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.2);
+    background: #F5F5F5;
+    text-overflow: ellipsis;
+}
+
+.tabbedHeader.header {
+    min-height: 54px !important;
+    max-height: 54px !important;
+}
+
+.tabbedHeader.header.active {
+    background: #343434 !important;
+    color: white !important;
+}

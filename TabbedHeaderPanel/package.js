@@ -1,0 +1,1 @@
+enyo.depends(	'source/TabbedHeaderPanel.js',    'css/TabbedHeaderPanel.css');

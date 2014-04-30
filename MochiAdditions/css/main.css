@@ -1,0 +1,46 @@
+.mochi-grabber {
+    position: absolute;
+    bottom: 0;
+    left: -19px;
+    width: 20px;
+    height: 104px;
+	content: url("../images/grabber.png");
+}
+
+.collapsed .mochi-grabber {
+    left: -2px;
+    z-index: 10;
+	content: url("../images/grabber_collapsed.png");
+}
+
+.mochi-groupbox {
+	position: relative;
+	padding: 0px 20px 20px 0;
+}
+
+.mochi-groupbox .mochi-subheader-content {
+	padding-top: 20px;
+}
+
+.mochi-picker .mochi-button-base::after {
+	content: '\25be';
+	color: #69cdff;
+	font-style: normal;
+	margin-left: 4px;
+}
+
+.mochi-picker-popup.mochi-contextual-popup {
+	z-index: 123;
+}
+
+.mochi-picker-popup .mochi-contextual-popup-title {
+	display: none;
+}
+
+.mochi-picker-popup .mochi-contextual-popup-action-buttons {
+	display: none;
+}
+
+.mochi-disabled {
+    pointer-events: none;
+}
